@@ -1,3 +1,21 @@
+$primary: #81899b;
+$accent: red;
+$warn: #dfa612;
+
+:root {
+  --primary: #{$primary};
+  --accent: #{$accent};
+  --warn: #{$warn};
+}
+
 h1 {
-  background-color: red;
+  background-color: var(--primary);
+}
+
+input {
+  background-color: var(--accent);
+  &::placeholder {
+    font-size: 18px;
+    color: $warn;
+  }
 }
