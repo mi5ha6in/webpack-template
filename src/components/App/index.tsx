@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import "./style.scss";
+import './style.scss';
 
 export const App: React.FC = () => {
   return (
